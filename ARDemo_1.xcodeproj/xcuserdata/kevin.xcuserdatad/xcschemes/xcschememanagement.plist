@@ -14,6 +14,21 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>ARDemo_3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Solar.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>SolarSystem.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 </dict>
 </plist>

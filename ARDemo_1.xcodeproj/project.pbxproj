@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A0CD2AA1FC06982004BAA7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0CD2A91FC06982004BAA7F /* AppDelegate.swift */; };
+		0A0CD2AC1FC06982004BAA7F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0CD2AB1FC06982004BAA7F /* art.scnassets */; };
+		0A0CD2AE1FC06982004BAA7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0CD2AD1FC06982004BAA7F /* ViewController.swift */; };
+		0A0CD2B11FC06982004BAA7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0CD2AF1FC06982004BAA7F /* Main.storyboard */; };
+		0A0CD2B31FC06982004BAA7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0CD2B21FC06982004BAA7F /* Assets.xcassets */; };
+		0A0CD2B61FC06982004BAA7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0CD2B41FC06982004BAA7F /* LaunchScreen.storyboard */; };
+		0A4C323B1FC18D4B0048AF18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C323A1FC18D4B0048AF18 /* AppDelegate.swift */; };
+		0A4C323D1FC18D4B0048AF18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C323C1FC18D4B0048AF18 /* ViewController.swift */; };
+		0A4C32401FC18D4B0048AF18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4C323E1FC18D4B0048AF18 /* Main.storyboard */; };
+		0A4C32421FC18D4B0048AF18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4C32411FC18D4B0048AF18 /* Assets.xcassets */; };
+		0A4C32451FC18D4B0048AF18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4C32431FC18D4B0048AF18 /* LaunchScreen.storyboard */; };
+		0A4C324B1FC18E380048AF18 /* SceneViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C324A1FC18E380048AF18 /* SceneViewViewController.swift */; };
+		0A52EB331FC84A7C00A869EA /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A52EB321FC84A7C00A869EA /* art.scnassets */; };
 		0A76086B1FBC741900981D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A76086A1FBC741900981D60 /* AppDelegate.swift */; };
 		0A76086D1FBC741900981D60 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A76086C1FBC741900981D60 /* art.scnassets */; };
 		0A76086F1FBC741900981D60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A76086E1FBC741900981D60 /* ViewController.swift */; };
@@ -22,6 +35,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A0CD2A71FC06982004BAA7F /* ARDemo_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDemo_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0CD2A91FC06982004BAA7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A0CD2AB1FC06982004BAA7F /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		0A0CD2AD1FC06982004BAA7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A0CD2B01FC06982004BAA7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A0CD2B21FC06982004BAA7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A0CD2B51FC06982004BAA7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A0CD2B71FC06982004BAA7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4C32381FC18D4B0048AF18 /* SolarSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4C323A1FC18D4B0048AF18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A4C323C1FC18D4B0048AF18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A4C323F1FC18D4B0048AF18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A4C32411FC18D4B0048AF18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A4C32441FC18D4B0048AF18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A4C32461FC18D4B0048AF18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4C324A1FC18E380048AF18 /* SceneViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneViewViewController.swift; sourceTree = "<group>"; };
+		0A52EB321FC84A7C00A869EA /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		0A7608671FBC741900981D60 /* ARDemo_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDemo_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A76086A1FBC741900981D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A76086C1FBC741900981D60 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -41,6 +71,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0A0CD2A41FC06982004BAA7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4C32351FC18D4B0048AF18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0A7608641FBC741900981D60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,11 +102,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A0CD2A81FC06982004BAA7F /* ARDemo_3 */ = {
+			isa = PBXGroup;
+			children = (
+				0A0CD2A91FC06982004BAA7F /* AppDelegate.swift */,
+				0A0CD2AB1FC06982004BAA7F /* art.scnassets */,
+				0A0CD2AD1FC06982004BAA7F /* ViewController.swift */,
+				0A0CD2AF1FC06982004BAA7F /* Main.storyboard */,
+				0A0CD2B21FC06982004BAA7F /* Assets.xcassets */,
+				0A0CD2B41FC06982004BAA7F /* LaunchScreen.storyboard */,
+				0A0CD2B71FC06982004BAA7F /* Info.plist */,
+			);
+			path = ARDemo_3;
+			sourceTree = "<group>";
+		};
+		0A4C32391FC18D4B0048AF18 /* SolarSystem */ = {
+			isa = PBXGroup;
+			children = (
+				0A4C323A1FC18D4B0048AF18 /* AppDelegate.swift */,
+				0A4C323C1FC18D4B0048AF18 /* ViewController.swift */,
+				0A4C324A1FC18E380048AF18 /* SceneViewViewController.swift */,
+				0A4C323E1FC18D4B0048AF18 /* Main.storyboard */,
+				0A4C32411FC18D4B0048AF18 /* Assets.xcassets */,
+				0A52EB321FC84A7C00A869EA /* art.scnassets */,
+				0A4C32431FC18D4B0048AF18 /* LaunchScreen.storyboard */,
+				0A4C32461FC18D4B0048AF18 /* Info.plist */,
+			);
+			path = SolarSystem;
+			sourceTree = "<group>";
+		};
 		0A76085E1FBC741900981D60 = {
 			isa = PBXGroup;
 			children = (
 				0A7608691FBC741900981D60 /* ARDemo_1 */,
 				0AB233201FBDF05900FCD1E8 /* ARDemo_2 */,
+				0A0CD2A81FC06982004BAA7F /* ARDemo_3 */,
+				0A4C32391FC18D4B0048AF18 /* SolarSystem */,
 				0A7608681FBC741900981D60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +147,8 @@
 			children = (
 				0A7608671FBC741900981D60 /* ARDemo_1.app */,
 				0AB2331F1FBDF05900FCD1E8 /* ARDemo_2.app */,
+				0A0CD2A71FC06982004BAA7F /* ARDemo_3.app */,
+				0A4C32381FC18D4B0048AF18 /* SolarSystem.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +184,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0A0CD2A61FC06982004BAA7F /* ARDemo_3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0CD2BA1FC06982004BAA7F /* Build configuration list for PBXNativeTarget "ARDemo_3" */;
+			buildPhases = (
+				0A0CD2A31FC06982004BAA7F /* Sources */,
+				0A0CD2A41FC06982004BAA7F /* Frameworks */,
+				0A0CD2A51FC06982004BAA7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARDemo_3;
+			productName = ARDemo_3;
+			productReference = 0A0CD2A71FC06982004BAA7F /* ARDemo_3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A4C32371FC18D4B0048AF18 /* SolarSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4C32491FC18D4B0048AF18 /* Build configuration list for PBXNativeTarget "SolarSystem" */;
+			buildPhases = (
+				0A4C32341FC18D4B0048AF18 /* Sources */,
+				0A4C32351FC18D4B0048AF18 /* Frameworks */,
+				0A4C32361FC18D4B0048AF18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolarSystem;
+			productName = SolarSystem;
+			productReference = 0A4C32381FC18D4B0048AF18 /* SolarSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0A7608661FBC741900981D60 /* ARDemo_1 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A76087B1FBC741900981D60 /* Build configuration list for PBXNativeTarget "ARDemo_1" */;
@@ -151,6 +262,14 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = Gjianhao;
 				TargetAttributes = {
+					0A0CD2A61FC06982004BAA7F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					0A4C32371FC18D4B0048AF18 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
 					0A7608661FBC741900981D60 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
@@ -176,11 +295,35 @@
 			targets = (
 				0A7608661FBC741900981D60 /* ARDemo_1 */,
 				0AB2331E1FBDF05900FCD1E8 /* ARDemo_2 */,
+				0A0CD2A61FC06982004BAA7F /* ARDemo_3 */,
+				0A4C32371FC18D4B0048AF18 /* SolarSystem */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0A0CD2A51FC06982004BAA7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0CD2AC1FC06982004BAA7F /* art.scnassets in Resources */,
+				0A0CD2B61FC06982004BAA7F /* LaunchScreen.storyboard in Resources */,
+				0A0CD2B31FC06982004BAA7F /* Assets.xcassets in Resources */,
+				0A0CD2B11FC06982004BAA7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4C32361FC18D4B0048AF18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4C32451FC18D4B0048AF18 /* LaunchScreen.storyboard in Resources */,
+				0A52EB331FC84A7C00A869EA /* art.scnassets in Resources */,
+				0A4C32421FC18D4B0048AF18 /* Assets.xcassets in Resources */,
+				0A4C32401FC18D4B0048AF18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0A7608651FBC741900981D60 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -206,6 +349,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0A0CD2A31FC06982004BAA7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0CD2AE1FC06982004BAA7F /* ViewController.swift in Sources */,
+				0A0CD2AA1FC06982004BAA7F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4C32341FC18D4B0048AF18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4C323D1FC18D4B0048AF18 /* ViewController.swift in Sources */,
+				0A4C323B1FC18D4B0048AF18 /* AppDelegate.swift in Sources */,
+				0A4C324B1FC18E380048AF18 /* SceneViewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0A7608631FBC741900981D60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -227,6 +389,38 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		0A0CD2AF1FC06982004BAA7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A0CD2B01FC06982004BAA7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A0CD2B41FC06982004BAA7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A0CD2B51FC06982004BAA7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0A4C323E1FC18D4B0048AF18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4C323F1FC18D4B0048AF18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A4C32431FC18D4B0048AF18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4C32441FC18D4B0048AF18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		0A7608701FBC741900981D60 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -262,6 +456,66 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0A0CD2B81FC06982004BAA7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3VK26R296;
+				INFOPLIST_FILE = ARDemo_3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gjianhao.ARDemo-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A0CD2B91FC06982004BAA7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3VK26R296;
+				INFOPLIST_FILE = ARDemo_3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gjianhao.ARDemo-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A4C32471FC18D4B0048AF18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3VK26R296;
+				INFOPLIST_FILE = SolarSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gjianhao.SolarSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A4C32481FC18D4B0048AF18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3VK26R296;
+				INFOPLIST_FILE = SolarSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gjianhao.SolarSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		0A7608791FBC741900981D60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -432,6 +686,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0A0CD2BA1FC06982004BAA7F /* Build configuration list for PBXNativeTarget "ARDemo_3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0CD2B81FC06982004BAA7F /* Debug */,
+				0A0CD2B91FC06982004BAA7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4C32491FC18D4B0048AF18 /* Build configuration list for PBXNativeTarget "SolarSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4C32471FC18D4B0048AF18 /* Debug */,
+				0A4C32481FC18D4B0048AF18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0A7608621FBC741900981D60 /* Build configuration list for PBXProject "ARDemo_1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
