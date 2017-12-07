@@ -20,6 +20,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        @IBAction func intoARModel(_ sender: Any) {
+        }
         @IBAction func clickBtn(_ sender: Any) {
         }
         // Set the view's delegate

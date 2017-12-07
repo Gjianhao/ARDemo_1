@@ -20,6 +20,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Set the view's delegate
         sceneView.delegate = self
         
+        @IBAction func intoARModel(_ sender: Any) {
+        }
         // Show statistics such as fps and timing information, 底部显示帧数状态栏
         sceneView.showsStatistics = true
         

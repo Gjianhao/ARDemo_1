@@ -203,5 +203,12 @@ class SceneViewViewController: UIViewController, ARSCNViewDelegate {
         
         sunHaloNode.addChildNode(sunHaloNode)
     }
+    
+    // MARK: - 代理
+    func session(_ session: ARSession, cameraDidChangeTrackingState camera: ARCamera) {
+        
+    }
+    
+    
 
 }
