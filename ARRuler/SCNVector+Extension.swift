@@ -24,6 +24,13 @@ extension SCNVector3 {
     
     // 画线的方法
     // SCNVector3 在macOS中，这个结构中的x、y和z字段是CGFloat值。在iOS、tvOS和watchOS中，这些字段都是浮动值。
+    
+    /// 根据结尾的点的位置,和颜色,画一条线
+    ///
+    /// - Parameters:
+    ///   - vector: 点的位置
+    ///   - color: 线的颜色
+    /// - Returns: 返回一条线
     func line(to vector: SCNVector3, color: UIColor) -> SCNNode {
         let indices: [UInt32] = [0, 1] // 指数
         let source = SCNGeometrySource(vertices: [self, vector]) // 创建一个集合容器

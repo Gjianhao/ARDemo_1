@@ -19,7 +19,14 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     var session = ARSession()
     var configuration = ARWorldTrackingConfiguration()
-    var isMeasuring = false // 正在测量吗
+    var isMeasuring = false // 正在测量吗  初始没有在测量状态
+    
+    var vectorZero = SCNVector3() // 原点
+    var vectorStart = SCNVector3() // 起始点
+    var vectorEnd = SCNVector3() // 结束点
+    var lines = [Line]()
+    var currentLine: Line?
+    var unit = LengthUnit.cenitMeter // 默认单位公分 cm
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -56,11 +63,58 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     }
 
     @IBAction func resetBtnClick(_ sender: UIButton) {
-        
+        for line in lines {
+            line.remove()
+        }
+        lines.removeAll()
     }
     @IBAction func unitBtnClick(_ sender: UIButton) {
         
     }
+    // 点击屏幕
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if !isMeasuring {
+            isMeasuring = true
+            reset()
+            targetImageView.image = UIImage(named: "GreenTarget")
+        } else {
+            isMeasuring = false
+            
+            if let line = currentLine {
+                lines.append(line)
+                currentLine = nil
+                targetImageView.image = UIImage(named: "WhiteTarget")
+            }
+        }
+    }
+    
+    func reset() {
+        vectorStart = SCNVector3()
+        vectorEnd = SCNVector3()
+    }
+    
+    // 扫描世界的方法(开始测量)
+    func scanWorld() {
+        // 拿到当前屏幕中点的位置
+        guard let worldPosition = sceneView.worldVector(for: view.center) else { return }
+        // 如果画面上一条线都没有
+        if lines.isEmpty {
+            infoLabel.text = "点击屏幕试试看"
+        }
+        // 如果现在开始测量
+        if isMeasuring {
+            // 设置开始节点
+            if vectorStart == vectorZero {
+                vectorStart = worldPosition // 把当前的位置设为开始节点
+                currentLine = Line(sceneView: sceneView, startVector: vectorStart, unit: unit)
+            }
+            // 设置结束节点
+            vectorEnd = worldPosition
+            currentLine?.update(to: vectorEnd)
+            infoLabel.text = currentLine?.distance(to: vectorEnd) ?? "..."
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Release any cached data, images, etc that aren't in use.
@@ -76,6 +130,12 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         return node
     }
 */
+    
+    func renderer(_ renderer: SCNSceneRenderer, updateAtTime time: TimeInterval) {
+        DispatchQueue.main.async {
+            self.scanWorld()
+        }
+    }
     
     func session(_ session: ARSession, didFailWithError error: Error) {
         // Present an error message to the user
